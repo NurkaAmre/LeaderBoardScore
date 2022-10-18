@@ -1,5 +1,52 @@
 {
   "devDependencies": {
-    "hint": "^2.0.0"
-  }
+    "css-loader": "^6.7.1",
+    "hint": "^2.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "name": "leaderboardscore",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "debug": "^4.3.4",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "insert-rule": "^2.1.0",
+    "lodash": "^4.17.21",
+    "minimatch": "^3.1.2",
+    "ms": "^2.1.2",
+    "nib": "^1.2.0",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "sax": "^1.2.4",
+    "source-map": "^0.7.4",
+    "stylus": "^0.59.0",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurkaAmre/LeaderBoardScore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurkaAmre/LeaderBoardScore/issues"
+  },
+  "homepage": "https://github.com/NurkaAmre/LeaderBoardScore#readme"
 }
