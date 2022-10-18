@@ -1,14 +1,15 @@
 * {
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    padding-inline-start: 10%;
-    padding-inline-end: 10%;
-    background-color: rgba(17, 194, 40, 0.781);
-    /* border-radius: 7px; */
-    box-shadow: 15px -2px 63px 13px rgba(56, 55, 55, 0.3)
+  padding-inline-start: 10%;
+  padding-inline-end: 10%;
+  background-color: rgba(17, 194, 40, 0.781);
+
+  /* border-radius: 7px; */
+  box-shadow: 15px -2px 63px 13px rgba(56, 55, 55, 0.3);
 }
 
 #wrapper {
@@ -26,28 +27,28 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5%;
-  
   padding: 30px 0;
   width: 100%;
+
   /* margin: auto; */
   border-radius: 5px;
 }
 
 .container {
-    /* border: 2px solid red; */
-    gap: 40%;
+  /* border: 2px solid red; */
+  gap: 40%;
 }
 
 h3 {
-    font-size: 2rem;
-    text-align: left;
-    color: #000;
+  font-size: 2rem;
+  text-align: left;
+  color: #000;
 }
 
 .first-part {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 .second-part {
@@ -57,27 +58,24 @@ h3 {
   gap: 15px;
 }
 
-input {
-    width: 100%;
-}
-
 button {
-    background-color: rgb(45, 42, 42);
-    color: yellowgreen;
-    height: 30px;
-    border-radius: 10%;
+  background-color: rgb(45, 42, 42);
+  color: yellowgreen;
+  height: 30px;
+  border-radius: 10%;
 }
 
 button:hover {
-    border: 2px solid yellow;
+  border: 2px solid yellow;
 }
 
 input {
-    height: 30px;
-    background-color: yellow;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 input::-webkit-outer-spin-button,
@@ -87,49 +85,47 @@ input::-webkit-inner-spin-button {
 }
 
 .btn1 {
- position: absolute;
- top: 38%;
- left: 90%;
+  position: absolute;
+  top: 38%;
+  left: 90%;
 }
 
 .btn2 {
-    position: absolute;
-    top: 62%;
-    left: 83%;
-
+  position: absolute;
+  top: 62%;
+  left: 83%;
 }
 
-th { 
-    background-color: yellow;
-    height: 30px;
+th {
+  background-color: yellow;
+  height: 30px;
 }
 
 td {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
-  .table-score {
-    border: 0.5px solid rgb(7, 221, 21);
-    width: 100%;
-    margin-top: 1rem;
-    overflow-y: scroll;
-  }
-  
-  .table-score td {
-    border: 1px solid rgb(30, 158, 193);
-    padding: 5px;
-  }
-  
-  .table-score tr:nth-child(even) {
-    background-color: rgba(52, 58, 46, 0.814);
-    
-  }
+.table-score {
+  border: 0.5px solid rgb(7, 221, 21);
+  width: 100%;
+  margin-top: 1rem;
+  overflow-y: scroll;
+}
 
-  .table-score tr:nth-child(odd) {
-    background-color: rgba(20, 118, 93, 0.781);
-  }
-  
-  .table-score tr:hover {
-    background-color: rgb(15, 14, 14);
-    color: lawngreen;
-  }
+.table-score td {
+  border: 1px solid rgb(30, 158, 193);
+  padding: 5px;
+}
+
+.table-score tr:nth-child(even) {
+  background-color: rgba(52, 58, 46, 0.814);
+}
+
+.table-score tr:nth-child(odd) {
+  background-color: rgba(20, 118, 93, 0.781);
+}
+
+.table-score tr:hover {
+  background-color: rgb(15, 14, 14);
+  color: lawngreen;
+}
