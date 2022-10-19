@@ -1,15 +1,13 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Leaderboard
 
-# Project Name
-
-> Description the project.
+>The leaderboard website displays scores submitted by different players. It also allows you to submit your score
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- JS
+- ES6 modules & webpack
 
 ## Live Demo (if available)
 
@@ -24,33 +22,25 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
 ### Setup
-
-### Install
-
-### Usage
+git clone https://github.com/NurkaAmre/LeaderBoardScore.git
+cd LeaderboardScore
 
 ### Run tests
-
-### Deployment
-
+npm install
+npm run start # This will run webpack to watch your changes in code.
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: @NurkaAmre
+- Twitter: @AmreNurgul
+- LinkedIn: LinkedIn
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
