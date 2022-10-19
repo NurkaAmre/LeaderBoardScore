@@ -84,13 +84,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.btn1 {
+.refresh {
   position: absolute;
   top: 38%;
   left: 90%;
 }
 
-.btn2 {
+.submit {
   position: absolute;
   top: 62%;
   left: 83%;
