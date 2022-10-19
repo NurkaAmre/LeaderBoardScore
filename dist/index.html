@@ -15,33 +15,41 @@
         <div class="container">
             <div class="first-part">
                 <h3>Recent Scores</h3>
-                <button class="btn1">Refresh</button>
+                <button class="refresh">Refresh</button>
             </div>
             
             <div class="table-container">
-                <table class="table">
+                <table id="table" class="table-score">
                   <thead>
                     <tr>
                       <th scope="col">Name</th>
                       <th scope="col">Score</th>
                     </tr>
                   </thead>
-                  <tbody class="score-list"></tbody>
+                  <tbody class="score-list">
                   <!-- list from js -->
+                </tbody>
                 </table>
               </div>
         
         </div>
         <div class="container">
-            <form action="" class="second-part">
+            <form class="second-part" method="post" action="submit">
             <h3>Add your score</h3>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Score">
-            <button class="btn2">Submit</button>
+            <input id="name" 
+                    class="inputtext" 
+                    type="text" name="user" 
+                    required placeholder="Your name">
+            <input id="score" 
+                    class="inputtext" 
+                    type="number" 
+                    name="score" 
+                    required placeholder="Your score">
+            <button type="submit" class="submit">Submit</button>
             </form>
         </div>
     </div>
     
-    
+    <SCript src="./index.js"></SCript>
 </body>
 </html>
