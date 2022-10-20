@@ -26,10 +26,12 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 git clone https://github.com/NurkaAmre/LeaderBoardScore.git
 cd LeaderboardScore
+Open with VScode
 
 ### Run tests
-npm install
-npm run start # This will run webpack to watch your changes in code.
+- npm install
+- npm run build
+- npm start
 
 ## Authors
 
