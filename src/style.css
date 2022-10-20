@@ -7,9 +7,10 @@ body {
   padding-inline-start: 10%;
   padding-inline-end: 10%;
   background-color: rgba(21, 182, 226, 0.781);
-
-  /* border-radius: 7px; */
-  box-shadow: 15px -2px 63px 13px rgba(56, 55, 55, 0.3);
+  box-shadow: 15px -2px 63px 13px rgba(230, 7, 174, 0.908);
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #wrapper {
@@ -21,11 +22,6 @@ body {
   font-size: 4rem;
   padding-top: 50px;
   color: rgb(204, 121, 204);
-}
-
-.fa-trophy-star {
-  font-size: 40px;
-  color: pink;
 }
 
 .main-container {
