@@ -2,7 +2,7 @@ const apiKey = 'Cw1HUhz2DRmZdE3JLvOM';
 const gameAPI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores/`;
 
 // Get data from API
-const getValue = async () => {
+export const getValue = async () => {
   const response = await fetch(gameAPI).then((res) => res.json());
   return response.result;
 };

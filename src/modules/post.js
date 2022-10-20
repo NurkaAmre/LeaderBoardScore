@@ -10,9 +10,6 @@ const postValue = async (formData, gameAPI) => {
   })
     .then((response) => response.json())
     .then((data) => data.result);
-//     .then((response) => response.json())
-//     .then((data) => console.log(data));
-//   // .then((data) => data.result);
 };
 
 export default postValue;
