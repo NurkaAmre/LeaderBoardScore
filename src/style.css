@@ -23,6 +23,11 @@ body {
   color: #000;
 }
 
+.fa-solid {
+  font-size: 20px;
+  color: yellow;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
