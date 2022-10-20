@@ -1,26 +1,27 @@
 import './style.css';
 import displayList from './modules/displaylist.js';
 import postValue from './modules/post.js';
-import createGame from './modules/addGame';
 
-const scoreInput = document.querySelector('#score');
-const nameInput = document.querySelector('#name');
+const apiKey = 'Cw1HUhz2DRmZdE3JLvOM';
+const gameAPI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores/`;
 const refreshBtn = document.querySelector('.refresh');
-const submitBtn = document.querySelector('.submit');
+const form = document.getElementById('form');
 
-submitBtn.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => {
+  const user = document.getElementById('name');
+  const score = document.getElementById('score');
+  const formData = {
+    user: user.value,
+    score: score.value,
+  };
   e.preventDefault();
-  postValue();
-  nameInput.value = '';
-  scoreInput.value = '';
+  postValue(formData, gameAPI);
+  user.value = '';
+  score.value = '';
 });
-
-displayList();
-createGame();
 
 refreshBtn.addEventListener('click', () => {
   displayList();
 });
 
-
-
+export default gameAPI;
